@@ -1,0 +1,68 @@
+.container {
+  padding: 2rem;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url('/Users/autokratz/Documents/contact-test-app/src/wallpaperflare.com_wallpaper.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+input[type="text"] {
+  width: 300px;
+  padding: 0.5rem;
+  font-size: 1rem;
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid #00ffff;
+  color: #00ffff;
+  outline: none;
+  text-shadow: 0 0 10px rgba(0, 255, 255, 0.7);
+}
+
+input[type="text"]::placeholder {
+  color: #00ffff;
+  opacity: 0.7;
+}
+.search-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+  margin-top: 1rem; /* Add margin-top to move the search container up */
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  flex-basis: calc(33.33% - 1rem);
+  margin-bottom: 1rem;
+  padding: 1rem;
+  background-color: rgba(0, 0, 0, 0.8);
+  border-radius: 0.5rem;
+  box-shadow: 0 0 20px rgba(0, 255, 255, 0.5);
+  text-align: center;
+  transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #00ffff;
+  text-shadow: 0 0 10px rgba(0, 255, 255, 0.7);
+  margin-bottom: 0.5rem;
+}
+
+p {
+  font-size: 1rem;
+  color: #fff;
+  text-shadow: 0 0 10px rgba(0, 255, 255, 0.7);
+  margin-bottom: 0.5rem;
+}
