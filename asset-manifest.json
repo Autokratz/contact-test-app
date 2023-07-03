@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/contact-test-app.io/static/css/main.d8375eda.css",
+    "main.js": "/contact-test-app.io/static/js/main.6eb34527.js",
+    "static/media/wallpaperflare.com_wallpaper.jpg": "/contact-test-app.io/static/media/wallpaperflare.com_wallpaper.0c6d8d61ea78db862101.jpg",
+    "index.html": "/contact-test-app.io/index.html",
+    "main.d8375eda.css.map": "/contact-test-app.io/static/css/main.d8375eda.css.map",
+    "main.6eb34527.js.map": "/contact-test-app.io/static/js/main.6eb34527.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d8375eda.css",
+    "static/js/main.6eb34527.js"
+  ]
+}
